@@ -1,5 +1,8 @@
 
-.instructions {
+* {
+    background-color: pink;
+}
+.ingredients {
     color : green;
 }
 .encouragement {
@@ -7,4 +10,36 @@
 }
 .recipes {
     color : red;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.title {
+    text-align : center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    border-radius: 8px;
+    height: auto;
+    max-width: 100%;
+}
+.food {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    border-radius: 8px;
+    height: auto;
+}
+.instructions {
+    color: blue;
+    font-size: 30px;
+    background-color: green;
+    font-family:'Times New Roman', Times, serif;
 }
